@@ -1,0 +1,5 @@
+.gridm{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: 20px 30px ;
+}

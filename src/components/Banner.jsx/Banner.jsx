@@ -1,5 +1,10 @@
 import React from 'react';
 import './Banner.css'
+// here is lottie import
+import Lottie from 'lottie-react'
+import aname from './aneme.json'
+// here is lottie import ends
+
 
 const Banner = () => {
     return (
@@ -14,6 +19,8 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className='w-1/2'>
+
+                    <Lottie className='w-11/12 h-[500px]' loop={true} animationData={aname}></Lottie>
 
                 </div>
             </section>
