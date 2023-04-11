@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "mahedi": "vite",
-    "build": "vite build",
+    "production": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
